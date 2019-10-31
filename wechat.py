@@ -8,8 +8,8 @@ import json
 class WeChat(object):
     #初始化企业微信信息
     def __init__(self):
-        self.corpid = '************'      //企业ID
-        self.secrete = '*************'    //通讯录secrete
+        self.corpid = '************'      #企业ID
+        self.secrete = '*************'    #通讯录secrete
         self.department_id = '1'
         self.fetch_child = '1'
 
